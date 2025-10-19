@@ -1,43 +1,219 @@
 <html>
 <head>
-    <title>Sistemas de Reservas</title>
-   <a href="index.html">Clic aqui para ir al inicio</a> 
+
+  <title>Aplicaciones bancarias y sistemas de pago</title>
 </head>
 <body>
-    <h1>6.5 Sistemas de reservas</h1>
 
-    <h2>6.5.1 Sistemas de reservas en línea</h2>
+  <h1>Aplicaciones bancarias y sistemas de pago</h1>
 
-    <p>
-        Los sistemas de reservas en línea dependen de la capacidad de actualizar los archivos inmediatamente, 
-        evitando así las reservas duplicadas, lo cual podría ocurrir si la respuesta del sistema fuera lenta. 
-        Los sistemas de reservas en línea se utilizan en:
-    </p>
+  <p>El uso de la tecnología informática ha revolucionado cómo realizamos nuestras transacciones bancarias. En esta página se incluyen temas sobre cajeros automáticos (ATM), depósitos de cheques, transferencias electrónicas de fondos (EFT), transacciones con tarjetas y el uso de cheques.</p>
 
-    <ul>
-        <li>la industria de los viajes</li>
-        <li>conciertos (teatro y eventos musicales)</li>
-        <li>boletos de cine</li>
-        <li>eventos deportivos</li>
-    </ul>
+  <h2>Funciones del cajero automático (ATM)</h2>
+  <ul>
+    <li>Retirar efectivo</li>
+    <li>Depositar efectivo</li>
+    <li>Depositar cheques</li>
+    <li>Consultar el saldo de la cuenta</li>
+    <li>Ver un mini estado de cuenta</li>
+    <li>Pagar facturas</li>
+    <li>Realizar transferencias</li>
+  </ul>
 
-    <p>
-        Antes de analizar ejemplos específicos, vale la pena considerar algunas de las 
-        <strong>ventajas y desventajas</strong> de usar sistemas de reservas en línea.
-    </p>
+  <h2>Tabla: Retiro de dinero en un cajero automático</h2>
+  <table border="1">
+    <tr>
+      <th>Secuencia para retirar efectivo</th>
+      <th>Qué ocurre detrás del proceso</th>
+    </tr>
+    <tr>
+      <td>El cliente inserta la tarjeta en el cajero</td>
+      <td>Se establece contacto con la computadora del banco</td>
+    </tr>
+    <tr>
+      <td>El cliente escribe el PIN</td>
+      <td>
+        Se verifica el PIN. Si es incorrecto se pide reingresarlo.<br>
+        Se comprueba si la tarjeta está vencida o reportada como robada.<br>
+        Si hay tres intentos fallidos, la tarjeta se retiene.
+      </td>
+    </tr>
+    <tr>
+      <td>Se presentan opciones (cambiar PIN, consultar saldo, depositar, retirar, etc.)</td>
+      <td>El sistema muestra los servicios disponibles y espera la selección</td>
+    </tr>
+    <tr>
+      <td>El cliente selecciona retirar efectivo</td>
+      <td>Se muestran montos predefinidos o se permite ingresar otra cantidad</td>
+    </tr>
+    <tr>
+      <td>El cliente acepta un monto</td>
+      <td>Se verifica que haya fondos suficientes y que no se exceda el límite diario; si todo es correcto, se autoriza la transacción</td>
+    </tr>
+    <tr>
+      <td>Se ofrece recibo</td>
+      <td>El cliente elige si desea impresión</td>
+    </tr>
+    <tr>
+      <td>La tarjeta es devuelta</td>
+      <td>El cajero finaliza la sesión</td>
+    </tr>
+    <tr>
+      <td>Se entrega el dinero</td>
+      <td>La cuenta del cliente se actualiza</td>
+    </tr>
+  </table>
 
-    <h3>Ventajas</h3>
-    <ul>
-        <li>Evitan las reservas duplicadas.</li>
-        <li>El cliente recibe una respuesta inmediata sobre la disponibilidad de los asientos y sobre si su reserva fue exitosa o no.</li>
-        <li>El cliente puede hacer reservas en cualquier momento del día.</li>
-        <li>El correo electrónico del cliente permite que la empresa de reservas envíe “ofertas especiales” automáticamente.</li>
-        <li>Generalmente es más fácil ver los planos de asientos (especialmente en vuelos) para elegir los mejores disponibles al precio indicado.</li>
-        <li>Es posible “reservar” un asiento por un tiempo determinado, lo que permite al cliente pensarlo antes de finalizar la compra (esto era difícil de hacer con los antiguos sistemas basados en papel).</li>
-    </ul>
+  <h2>Depósito de cheques en cajero automático</h2>
+  <table border="1">
+    <tr>
+      <th>Pasos</th>
+      <th>Proceso interno</th>
+    </tr>
+    <tr>
+      <td>El usuario inserta su tarjeta y escribe el PIN</td>
+      <td>El sistema autentica la cuenta</td>
+    </tr>
+    <tr>
+      <td>El cliente selecciona la opción de depósito de cheques</td>
+      <td>El cajero abre el compartimento para introducir el cheque</td>
+    </tr>
+    <tr>
+      <td>El cliente introduce el cheque</td>
+      <td>Un lector OCR captura los datos y el monto del cheque</td>
+    </tr>
+    <tr>
+      <td>El monto aparece en pantalla y el cliente confirma</td>
+      <td>La operación se registra y la cuenta se actualiza (sujeta a verificación 24–48 horas)</td>
+    </tr>
+    <tr>
+      <td>Se imprime un recibo</td>
+      <td>El cajero cierra la sesión y devuelve la tarjeta</td>
+    </tr>
+  </table>
+
+  <h2>Ventajas del uso de cajeros automáticos</h2>
+  <ul>
+    <li>Disponibles las 24 horas.</li>
+    <li>Permiten realizar múltiples operaciones sin acudir al banco.</li>
+    <li>Reducen tiempo de espera y filas en sucursales.</li>
+  </ul>
+
+  <h2>Desventajas del uso de cajeros automáticos</h2>
+  <ul>
+    <li>Riesgo de fraude como clonación o espionaje del PIN.</li>
+    <li>Pueden quedarse sin efectivo o fallar por mantenimiento.</li>
+    <li>Dependencia de electricidad y comunicación.</li>
+    <li>Menos trato personal con el personal del banco.</li>
+  </ul>
+
+  <h2>Transferencia Electrónica de Fondos (EFT)</h2>
+  <p>La EFT permite enviar instrucciones de transferencia directamente al sistema del banco para mover fondos entre cuentas de forma electrónica. No existe transferencia física de billetes. Cuando se recibe la instrucción EFT, el sistema transfiere automáticamente la cantidad indicada de una cuenta a otra.</p>
+
+  <h3>Uso común del EFT</h3>
+  <p>Un uso común es el pago de nóminas. En la fecha de pago, la empresa ordena al banco transferir los salarios desde su cuenta a las cuentas bancarias de los empleados.</p>
+
+  <h3>Ventajas del EFT</h3>
+  <ul>
+    <li>Rápido y seguro.</li>
+    <li>Menor costo que emitir cheques.</li>
+    <li>Permite automatizar pagos periódicos.</li>
+    <li>El cliente puede disputar un pago en determinados plazos.</li>
+  </ul>
+
+  <h3>Desventajas del EFT</h3>
+  <ul>
+    <li>Difícil de revertir una vez ejecutada la transferencia.</li>
+    <li>Requiere fondos disponibles inmediatos.</li>
+    <li>Riesgo de errores o fraude si los datos del receptor son incorrectos.</li>
+  </ul>
+
+  <h2>Transacciones con tarjetas de crédito y débito</h2>
+  <p>Las tarjetas contienen un chip y una banda magnética con información clave como el PIN. El uso de chip y PIN mejora la seguridad al reducir la dependencia de firmas. Pagar con tarjeta implica una operación electrónica entre el banco del cliente y el banco del comercio.</p>
+
+  <h3>Proceso de pago con tarjeta</h3>
+  <ol>
+    <li>El cliente inserta o acerca la tarjeta y escribe el PIN si corresponde.</li>
+    <li>Se verifica la validez de la tarjeta (fecha de vencimiento, reporte de robo, etc.).</li>
+    <li>El PIN ingresado se compara con el almacenado en el chip.</li>
+    <li>Si la verificación es correcta, el emisor autoriza la transacción.</li>
+    <li>El banco del cliente transfiere los fondos al banco del comercio.</li>
+    <li>Se emite un recibo como comprobante.</li>
+  </ol>
+
+  <h2>Tabla: Ventajas y desventajas de tarjetas</h2>
+  <table border="1">
+    <tr>
+      <th>Tipo de tarjeta</th>
+      <th>Ventajas</th>
+      <th>Desventajas</th>
+    </tr>
+    <tr>
+      <td>Crédito</td>
+      <td>
+        <ul>
+          <li>Permiten diferir pagos y ofrecen protección en compras.</li>
+          <li>Aceptadas internacionalmente.</li>
+          <li>Posibles recompensas o periodos sin intereses.</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Tasas de interés elevadas si no se paga a tiempo.</li>
+          <li>Posible endeudamiento.</li>
+          <li>Cuotas o comisiones.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Débito</td>
+      <td>
+        <ul>
+          <li>El gasto se debita directamente de la cuenta.</li>
+          <li>No genera intereses.</li>
+          <li>Útil para controlar gastos.</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Menor protección frente a fraudes que la tarjeta de crédito.</li>
+          <li>Requiere saldo disponible.</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+  <h2>Pago de salarios mediante EFT</h2>
+  <p>La EFT se utiliza frecuentemente para pagar salarios, aportes y transferencias periódicas. La empresa envía al banco la orden de pago y los fondos se acreditan en las cuentas de los empleados.</p>
+
+  <h2>Cheques</h2>
+  <p>Los cheques son instrucciones de pago que ordenan a un banco pagar una cantidad determinada a una persona o empresa. Su uso ha disminuido por la preferencia de métodos electrónicos, pero todavía se usan en ciertos contextos.</p>
+
+  <h3>Tabla: Ventajas y desventajas de los cheques</h3>
+  <table border="1">
+    <tr>
+      <th>Ventajas</th>
+      <th>Desventajas</th>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          <li>No es necesario transportar grandes cantidades de efectivo.</li>
+          <li>Pueden enviarse por correo.</li>
+          <li>Sirven como comprobante escrito de pago.</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Pueden perderse o falsificarse.</li>
+          <li>Requieren tiempo para el proceso de compensación.</li>
+          <li>Costos asociados a su manejo.</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+  <p>Fin del documento. Todo el contenido proviene de las capturas que proporcionaste y está integrado en este único archivo HTML con párrafos, listas y tablas. Puedes copiar y pegar este código en un archivo .html para verlo en el navegador.</p>
+
 </body>
 </html>
-
-
-
-

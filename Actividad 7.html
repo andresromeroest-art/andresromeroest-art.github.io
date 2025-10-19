@@ -1,221 +1,226 @@
 <html>
 <head>
-
-  <title>Aplicaciones bancarias y sistemas de pago</title>
+  <title>Aplicaciones Bancarias y ETFs</title>
 </head>
 <body>
-    <a href="index.html">Clic aqui para ir al inicio</a> 
+  <a href="index.html">Clic aqui para ir al inicio</a> 
+<h1>Aplicaciones Bancarias y ETFs</h1>
 
-  <h1>Aplicaciones bancarias y sistemas de pago</h1>
+<p>El uso de la tecnología informática ha revolucionado cómo realizamos nuestras transacciones bancarias. En esta página se incluyen temas sobre cajeros automáticos (ATM), depósitos de cheques, transferencias electrónicas de fondos (EFT), transacciones con tarjetas y el uso de cheques.</p>
 
-  <p>El uso de la tecnología informática ha revolucionado cómo realizamos nuestras transacciones bancarias. En esta página se incluyen temas sobre cajeros automáticos (ATM), depósitos de cheques, transferencias electrónicas de fondos (EFT), transacciones con tarjetas y el uso de cheques.</p>
+<h2>Funciones del cajero automático (ATM)</h2>
+<ul>
+  <li>Retirar efectivo</li>
+  <li>Depositar efectivo</li>
+  <li>Depositar cheques</li>
+  <li>Consultar el saldo de la cuenta</li>
+  <li>Ver un mini estado de cuenta</li>
+  <li>Pagar facturas</li>
+  <li>Realizar transferencias</li>
+</ul>
 
-  <h2>Funciones del cajero automático (ATM)</h2>
-  <ul>
-    <li>Retirar efectivo</li>
-    <li>Depositar efectivo</li>
-    <li>Depositar cheques</li>
-    <li>Consultar el saldo de la cuenta</li>
-    <li>Ver un mini estado de cuenta</li>
-    <li>Pagar facturas</li>
-    <li>Realizar transferencias</li>
-  </ul>
+<h2>Tabla: Retiro de dinero en un cajero automático</h2>
+<table border="1">
+  <tr>
+    <th>Secuencia para retirar efectivo</th>
+    <th>Qué ocurre detrás del proceso</th>
+  </tr>
+  <tr>
+    <td>El cliente inserta la tarjeta en el cajero</td>
+    <td>Se establece contacto con la computadora del banco</td>
+  </tr>
+  <tr>
+    <td>El cliente escribe el PIN</td>
+    <td>
+      Se verifica el PIN. Si es incorrecto se pide reingresarlo.<br>
+      Se comprueba si la tarjeta está vencida o reportada como robada.<br>
+      Si hay tres intentos fallidos, la tarjeta se retiene.
+    </td>
+  </tr>
+  <tr>
+    <td>Se presentan opciones (cambiar PIN, consultar saldo, depositar, retirar, etc.)</td>
+    <td>El sistema muestra los servicios disponibles y espera la selección</td>
+  </tr>
+  <tr>
+    <td>El cliente selecciona retirar efectivo</td>
+    <td>Se muestran montos predefinidos o se permite ingresar otra cantidad</td>
+  </tr>
+  <tr>
+    <td>El cliente acepta un monto</td>
+    <td>Se verifica que haya fondos suficientes y que no se exceda el límite diario; si todo es correcto, se autoriza la transacción</td>
+  </tr>
+  <tr>
+    <td>Se ofrece recibo</td>
+    <td>El cliente elige si desea impresión</td>
+  </tr>
+  <tr>
+    <td>La tarjeta es devuelta</td>
+    <td>El cajero finaliza la sesión</td>
+  </tr>
+  <tr>
+    <td>Se entrega el dinero</td>
+    <td>La cuenta del cliente se actualiza</td>
+  </tr>
+</table>
 
-  <h2>Tabla: Retiro de dinero en un cajero automático</h2>
-  <table border="1">
-    <tr>
-      <th>Secuencia para retirar efectivo</th>
-      <th>Qué ocurre detrás del proceso</th>
-    </tr>
-    <tr>
-      <td>El cliente inserta la tarjeta en el cajero</td>
-      <td>Se establece contacto con la computadora del banco</td>
-    </tr>
-    <tr>
-      <td>El cliente escribe el PIN</td>
-      <td>
-        Se verifica el PIN. Si es incorrecto se pide reingresarlo.<br>
-        Se comprueba si la tarjeta está vencida o reportada como robada.<br>
-        Si hay tres intentos fallidos, la tarjeta se retiene.
-      </td>
-    </tr>
-    <tr>
-      <td>Se presentan opciones (cambiar PIN, consultar saldo, depositar, retirar, etc.)</td>
-      <td>El sistema muestra los servicios disponibles y espera la selección</td>
-    </tr>
-    <tr>
-      <td>El cliente selecciona retirar efectivo</td>
-      <td>Se muestran montos predefinidos o se permite ingresar otra cantidad</td>
-    </tr>
-    <tr>
-      <td>El cliente acepta un monto</td>
-      <td>Se verifica que haya fondos suficientes y que no se exceda el límite diario; si todo es correcto, se autoriza la transacción</td>
-    </tr>
-    <tr>
-      <td>Se ofrece recibo</td>
-      <td>El cliente elige si desea impresión</td>
-    </tr>
-    <tr>
-      <td>La tarjeta es devuelta</td>
-      <td>El cajero finaliza la sesión</td>
-    </tr>
-    <tr>
-      <td>Se entrega el dinero</td>
-      <td>La cuenta del cliente se actualiza</td>
-    </tr>
-  </table>
+<h2>Depósito de cheques en cajero automático</h2>
+<table border="1">
+  <tr>
+    <th>Pasos</th>
+    <th>Proceso interno</th>
+  </tr>
+  <tr>
+    <td>El cliente inserta la tarjeta y el PIN</td>
+    <td>El sistema autentica la cuenta</td>
+  </tr>
+  <tr>
+    <td>El cliente elige la opción de depósito</td>
+    <td>El cajero abre el compartimento para el cheque</td>
+  </tr>
+  <tr>
+    <td>El cliente introduce el cheque</td>
+    <td>El sistema usa OCR para leer los datos del cheque</td>
+  </tr>
+  <tr>
+    <td>El monto se muestra en pantalla y el cliente confirma</td>
+    <td>La cuenta se actualiza (sujeta a verificación 24–48 horas)</td>
+  </tr>
+  <tr>
+    <td>Se imprime un recibo</td>
+    <td>El cajero cierra la sesión y devuelve la tarjeta</td>
+  </tr>
+</table>
 
-  <h2>Depósito de cheques en cajero automático</h2>
-  <table border="1">
-    <tr>
-      <th>Pasos</th>
-      <th>Proceso interno</th>
-    </tr>
-    <tr>
-      <td>El usuario inserta su tarjeta y escribe el PIN</td>
-      <td>El sistema autentica la cuenta</td>
-    </tr>
-    <tr>
-      <td>El cliente selecciona la opción de depósito de cheques</td>
-      <td>El cajero abre el compartimento para introducir el cheque</td>
-    </tr>
-    <tr>
-      <td>El cliente introduce el cheque</td>
-      <td>Un lector OCR captura los datos y el monto del cheque</td>
-    </tr>
-    <tr>
-      <td>El monto aparece en pantalla y el cliente confirma</td>
-      <td>La operación se registra y la cuenta se actualiza (sujeta a verificación 24–48 horas)</td>
-    </tr>
-    <tr>
-      <td>Se imprime un recibo</td>
-      <td>El cajero cierra la sesión y devuelve la tarjeta</td>
-    </tr>
-  </table>
+<h2>Ventajas del uso de cajeros automáticos</h2>
+<ul>
+  <li>Se puede retirar dinero en cualquier momento del día.</li>
+  <li>Ofrecen muchos servicios sin ir al banco, como consultar saldo o pagar facturas.</li>
+  <li>Permiten acceder a la cuenta desde cualquier lugar del mundo.</li>
+  <li>Brindan servicio más rápido que hacer fila en el banco.</li>
+</ul>
 
-  <h2>Ventajas del uso de cajeros automáticos</h2>
-  <ul>
-    <li>Disponibles las 24 horas.</li>
-    <li>Permiten realizar múltiples operaciones sin acudir al banco.</li>
-    <li>Reducen tiempo de espera y filas en sucursales.</li>
-  </ul>
+<h2>Desventajas del uso de cajeros automáticos</h2>
+<ul>
+  <li>Algunos están en lugares donde puede haber robos.</li>
+  <li>Riesgo de clonación de tarjetas o espionaje de PIN.</li>
+  <li>Algunos bancos cobran por usar cajeros.</li>
+  <li>Existen límites de retiro diario.</li>
+  <li>Si la tarjeta está dañada, no se puede realizar la transacción.</li>
+  <li>Falta de trato personal, lo que algunos clientes no prefieren.</li>
+</ul>
 
-  <h2>Desventajas del uso de cajeros automáticos</h2>
-  <ul>
-    <li>Riesgo de fraude como clonación o espionaje del PIN.</li>
-    <li>Pueden quedarse sin efectivo o fallar por mantenimiento.</li>
-    <li>Dependencia de electricidad y comunicación.</li>
-    <li>Menos trato personal con el personal del banco.</li>
-  </ul>
+<h2>Transferencia Electrónica de Fondos (EFT)</h2>
+<p>La transferencia electrónica de fondos (EFT) es un sistema que permite enviar instrucciones de transferencia directamente al sistema del banco. No se transfiere dinero físico, todo ocurre electrónicamente entre cuentas. Cuando se recibe una instrucción EFT, el sistema transfiere automáticamente la cantidad especificada de una cuenta a otra.</p>
 
-  <h2>Transferencia Electrónica de Fondos (EFT)</h2>
-  <p>La EFT permite enviar instrucciones de transferencia directamente al sistema del banco para mover fondos entre cuentas de forma electrónica. No existe transferencia física de billetes. Cuando se recibe la instrucción EFT, el sistema transfiere automáticamente la cantidad indicada de una cuenta a otra.</p>
+<h3>Uso común del EFT</h3>
+<p>Un uso común del EFT es el pago de salarios del personal de una empresa. El día del pago, la empresa ordena al banco transferir el dinero a las cuentas de los empleados.</p>
 
-  <h3>Uso común del EFT</h3>
-  <p>Un uso común es el pago de nóminas. En la fecha de pago, la empresa ordena al banco transferir los salarios desde su cuenta a las cuentas bancarias de los empleados.</p>
+<h3>Ventajas del EFT</h3>
+<ul>
+  <li>Es un método de pago muy seguro.</li>
+  <li>Es un método de pago muy rápido.</li>
+  <li>Es más barato que usar cheques.</li>
+  <li>El cliente puede disputar un pago EFT hasta 60 días después.</li>
+</ul>
 
-  <h3>Ventajas del EFT</h3>
-  <ul>
-    <li>Rápido y seguro.</li>
-    <li>Menor costo que emitir cheques.</li>
-    <li>Permite automatizar pagos periódicos.</li>
-    <li>El cliente puede disputar un pago en determinados plazos.</li>
-  </ul>
+<h3>Desventajas del EFT</h3>
+<ul>
+  <li>Una vez realizada la transferencia, no se puede revertir fácilmente.</li>
+  <li>El cliente debe tener fondos disponibles de inmediato.</li>
+  <li>No garantiza que el receptor sea legítimo (puede haber fraude de identidad).</li>
+</ul>
 
-  <h3>Desventajas del EFT</h3>
-  <ul>
-    <li>Difícil de revertir una vez ejecutada la transferencia.</li>
-    <li>Requiere fondos disponibles inmediatos.</li>
-    <li>Riesgo de errores o fraude si los datos del receptor son incorrectos.</li>
-  </ul>
+<h2>Transacciones con Tarjetas de Crédito y Débito</h2>
+<p>Las tarjetas de crédito y débito tienen un chip y una banda magnética que contienen información clave como el PIN. Este sistema mejora la seguridad al reducir la dependencia de las firmas. Pagar con una tarjeta con chip y PIN es una forma de transferencia electrónica de fondos (EFT).</p>
 
-  <h2>Transacciones con tarjetas de crédito y débito</h2>
-  <p>Las tarjetas contienen un chip y una banda magnética con información clave como el PIN. El uso de chip y PIN mejora la seguridad al reducir la dependencia de firmas. Pagar con tarjeta implica una operación electrónica entre el banco del cliente y el banco del comercio.</p>
+<h3>Proceso de pago con tarjeta</h3>
+<ol>
+  <li>El PIN se introduce mediante el teclado.</li>
+  <li>Se verifica si la tarjeta es válida (fecha de vencimiento, reporte de robo, etc.).</li>
+  <li>El PIN almacenado en el chip se compara con el ingresado por el usuario.</li>
+  <li>Si coinciden, la transacción se completa.</li>
+</ol>
 
-  <h3>Proceso de pago con tarjeta</h3>
-  <ol>
-    <li>El cliente inserta o acerca la tarjeta y escribe el PIN si corresponde.</li>
-    <li>Se verifica la validez de la tarjeta (fecha de vencimiento, reporte de robo, etc.).</li>
-    <li>El PIN ingresado se compara con el almacenado en el chip.</li>
-    <li>Si la verificación es correcta, el emisor autoriza la transacción.</li>
-    <li>El banco del cliente transfiere los fondos al banco del comercio.</li>
-    <li>Se emite un recibo como comprobante.</li>
-  </ol>
+<h3>Tabla: Ventajas y desventajas de tarjetas</h3>
+<table border="1">
+  <tr>
+    <th>Tipo de tarjeta</th>
+    <th>Ventajas</th>
+    <th>Desventajas</th>
+  </tr>
+  <tr>
+    <td>Crédito</td>
+    <td>
+      <ul>
+        <li>Protección al cliente si una empresa quiebra o el producto no llega.</li>
+        <li>Aceptadas internacionalmente.</li>
+        <li>Periodo sin intereses si se paga a tiempo.</li>
+        <li>Permiten comprar en línea.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Altas tasas de interés.</li>
+        <li>Tarifas anuales pueden aplicar.</li>
+        <li>Posibilidad de endeudarse fácilmente.</li>
+        <li>Riesgos de seguridad al usarlas en línea.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Débito</td>
+    <td>
+      <ul>
+        <li>El dinero se toma directamente de la cuenta.</li>
+        <li>No hay cargos por intereses.</li>
+        <li>Más seguras que llevar efectivo.</li>
+        <li>Permiten comprar en línea.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Menor protección que las tarjetas de crédito.</li>
+        <li>No hay crédito disponible; se necesita tener fondos.</li>
+        <li>Riesgos de seguridad al usarlas en línea.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-  <h2>Tabla: Ventajas y desventajas de tarjetas</h2>
-  <table border="1">
-    <tr>
-      <th>Tipo de tarjeta</th>
-      <th>Ventajas</th>
-      <th>Desventajas</th>
-    </tr>
-    <tr>
-      <td>Crédito</td>
-      <td>
-        <ul>
-          <li>Permiten diferir pagos y ofrecen protección en compras.</li>
-          <li>Aceptadas internacionalmente.</li>
-          <li>Posibles recompensas o periodos sin intereses.</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>Tasas de interés elevadas si no se paga a tiempo.</li>
-          <li>Posible endeudamiento.</li>
-          <li>Cuotas o comisiones.</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Débito</td>
-      <td>
-        <ul>
-          <li>El gasto se debita directamente de la cuenta.</li>
-          <li>No genera intereses.</li>
-          <li>Útil para controlar gastos.</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>Menor protección frente a fraudes que la tarjeta de crédito.</li>
-          <li>Requiere saldo disponible.</li>
-        </ul>
-      </td>
-    </tr>
-  </table>
+<h2>Pago de salarios mediante EFT</h2>
+<p>Una aplicación común del EFT es el pago de salarios. En el día de pago, la empresa ordena al banco transferir dinero desde su cuenta hacia las cuentas de los empleados.</p>
 
-  <h2>Pago de salarios mediante EFT</h2>
-  <p>La EFT se utiliza frecuentemente para pagar salarios, aportes y transferencias periódicas. La empresa envía al banco la orden de pago y los fondos se acreditan en las cuentas de los empleados.</p>
+<h2>Cheques</h2>
+<p>Los cheques son una de las formas más antiguas de pago por bienes o servicios. Aunque son seguros, son más lentos y costosos que otros métodos, por lo que su uso ha disminuido.</p>
 
-  <h2>Cheques</h2>
-  <p>Los cheques son instrucciones de pago que ordenan a un banco pagar una cantidad determinada a una persona o empresa. Su uso ha disminuido por la preferencia de métodos electrónicos, pero todavía se usan en ciertos contextos.</p>
+<h3>Tabla: Ventajas y desventajas de los cheques</h3>
+<table border="1">
+  <tr>
+    <th>Ventajas</th>
+    <th>Desventajas</th>
+  </tr>
+  <tr>
+    <td>
+      <ul>
+        <li>Evitan transportar grandes cantidades de dinero.</li>
+        <li>Pueden enviarse por correo.</li>
+        <li>Sirven como comprobante escrito de pago.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Pueden perderse o falsificarse.</li>
+        <li>Requieren tiempo de verificación.</li>
+        <li>Costos asociados a su manejo.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-  <h3>Tabla: Ventajas y desventajas de los cheques</h3>
-  <table border="1">
-    <tr>
-      <th>Ventajas</th>
-      <th>Desventajas</th>
-    </tr>
-    <tr>
-      <td>
-        <ul>
-          <li>No es necesario transportar grandes cantidades de efectivo.</li>
-          <li>Pueden enviarse por correo.</li>
-          <li>Sirven como comprobante escrito de pago.</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>Pueden perderse o falsificarse.</li>
-          <li>Requieren tiempo para el proceso de compensación.</li>
-          <li>Costos asociados a su manejo.</li>
-        </ul>
-      </td>
-    </tr>
-  </table>
-
-  <p>Fin del documento. Todo el contenido proviene de las capturas que proporcionaste y está integrado en este único archivo HTML con párrafos, listas y tablas. Puedes copiar y pegar este código en un archivo .html para verlo en el navegador.</p>
+<p>Fin del documento. Todo el contenido proviene de las capturas que proporcionaste y está integrado en este único archivo HTML con párrafos, listas y tablas. Puedes copiar y pegar este código en un archivo .html para verlo en el navegador.</p>
 
 </body>
 </html>
+
+
 
